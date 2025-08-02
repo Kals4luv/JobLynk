@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Search - JobLynk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <h1>JobLynk</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="admin.html">Admin</a>
+            <a href="profile.html">Profile</a>
+            <a href="job_search.html">Job Search</a>
+        </nav>
+    </header>
+    <main>
+        <section class="job-search-section">
+            <h2>Search for Jobs</h2>
+            <form id="search-form">
+                <input type="text" id="search-keyword" placeholder="Keyword (e.g. developer, designer)">
+                <input type="text" id="search-location" placeholder="Location (e.g. Remote, New York)">
+                <button type="submit">Search</button>
+            </form>
+            <div id="search-results" class="jobs-list" style="margin-top:2em;"></div>
+        </section>
+    </main>
+    <script src="static/job_search.js"></script>
+</body>
+</html>

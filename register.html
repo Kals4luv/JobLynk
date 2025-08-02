@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JobLynk Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <h1>JobLynk</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="admin.html">Admin</a>
+            <a href="profile.html">Profile</a>
+            <a href="job_search.html">Job Search</a>
+        </nav>
+    </header>
+    <main>
+        <section class="register-section">
+            <h2>Create an Account</h2>
+            <form class="register-form" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Choose a username" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+                <label for="confirm">Confirm Password</label>
+                <input type="password" id="confirm" name="confirm" placeholder="Confirm your password" required>
+                <button type="submit">Register</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JobLynk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <h1>JobLynk</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="admin.html">Admin</a>
+            <a href="profile.html">Profile</a>
+            <a href="job_search.html">Job Search</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Welcome Message -->
+        <section class="hero" style="text-align:center; padding:2em 0;">
+            <h2>Welcome to JobLynk!</h2>
+            <p>Your gateway to new career opportunities. Join thousands of job seekers and employers connecting every day.</p>
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=cover&w=600&q=80" alt="Job search" style="max-width:320px;width:100%;border-radius:12px;margin:1em auto;display:block;">
+            <a href="#jobs" class="cta-btn" style="margin-top:1em;">Browse Jobs</a>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" style="background:#f1f3f6;padding:2em 1em;border-radius:8px;margin:2em 0;">
+            <h3>About JobLynk</h3>
+            <p>JobLynk is a modern job board platform designed to help job seekers find their dream roles and employers discover top talent. We offer easy profile creation, advanced job search, and a seamless application process.</p>
+            <ul style="max-width:600px;margin:1em auto;text-align:left;">
+                <li>✔️ Simple, user-friendly interface</li>
+                <li>✔️ Powerful job search and filtering</li>
+                <li>✔️ Secure and private profile management</li>
+                <li>✔️ Free for job seekers</li>
+            </ul>
+        </section>
+
+        <!-- Featured Jobs -->
+        <section id="jobs" class="jobs-list">
+            <h3>Featured Jobs</h3>
+            <div class="job-card">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=cover&w=100&q=80" alt="Frontend Developer" style="width:80px;height:80px;object-fit:cover;border-radius:8px;float:right;margin-left:1em;">
+                <h4>Frontend Developer</h4>
+                <p>Awesome Tech Inc. - Remote</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job-card">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=cover&w=100&q=80" alt="Backend Engineer" style="width:80px;height:80px;object-fit:cover;border-radius:8px;float:right;margin-left:1em;">
+                <h4>Backend Engineer</h4>
+                <p>Innovatech - New York, NY</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job-card">
+                <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=cover&w=100&q=80" alt="UI/UX Designer" style="width:80px;height:80px;object-fit:cover;border-radius:8px;float:right;margin-left:1em;">
+                <h4>UI/UX Designer</h4>
+                <p>DesignPro - San Francisco, CA</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials" style="margin:2em 0;text-align:center;">
+            <h3>What Our Users Say</h3>
+            <div style="display:flex;flex-wrap:wrap;gap:2em;justify-content:center;max-width:900px;margin:1em auto;">
+                <div style="background:#fff;padding:1.5em;border-radius:8px;box-shadow:0 2px 8px rgba(44,62,80,0.08);max-width:320px;">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" style="width:60px;height:60px;border-radius:50%;margin-bottom:0.5em;">
+                    <p>“JobLynk helped me land my dream job in just two weeks. The process was smooth and easy!”</p>
+                    <strong>- Alex T.</strong>
+                </div>
+                <div style="background:#fff;padding:1.5em;border-radius:8px;box-shadow:0 2px 8px rgba(44,62,80,0.08);max-width:320px;">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" style="width:60px;height:60px;border-radius:50%;margin-bottom:0.5em;">
+                    <p>“As an employer, I found great candidates quickly. Highly recommend JobLynk!”</p>
+                    <strong>- Priya S.</strong>
+                </div>
+                <div style="background:#fff;padding:1.5em;border-radius:8px;box-shadow:0 2px 8px rgba(44,62,80,0.08);max-width:320px;">
+                    <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="User" style="width:60px;height:60px;border-radius:50%;margin-bottom:0.5em;">
+                    <p>“The best job board I’ve used. The interface is clean and the jobs are relevant.”</p>
+                    <strong>- Samuel L.</strong>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="static/main.js"></script>
+</body>
+</html>
